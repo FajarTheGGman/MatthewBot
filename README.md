@@ -1,7 +1,7 @@
 # MatthewBot
 #Simple bot chat
 
-![alt text](https://raw.githubusercontent.com/FajarTheGGman/F-Tools/master/img/ss.png)
+![alt text](https://github.com/FajarTheGGman/MatthewBot/blob/master/.img/Screenshot_2019-03-21-21-13-50-116_com.termux.png)
 
 # Tutorial install
 <pre>
