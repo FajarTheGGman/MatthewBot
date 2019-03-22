@@ -97,6 +97,24 @@ if ($data == "Hai matt"){
 	echo $r;
 }else if ($data == "version"){
 	echo $G."V1.0 (Beta)\n";
+}else if ($data == "matt spam call"){
+	function ras($nomor,$jumlah){
+	$url = "http://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=".$nomor;
+	$i = 0;
+	while($i < $jumlah){
+	$ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRASFER, true);
+	$hasil = curl_exec($ch);
+	echo $hasil;
+	$i++;
+	}
+}
+echo "Input number : ";
+$nomor = trim(fgets(STDIN));
+echo "Input value : ";
+$jumlah = trim(fgets(STDIN));
+ras($nomor,$jumlah);
 }
 goto mulai;
 $out = system("exit");
