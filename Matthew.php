@@ -1,6 +1,4 @@
 <?php
-//Jangan di recode gan cape gw buat nya cuk 
-//Please Don't recode my code i'm so tired creating this project
 //Copyright© 2019 By Fajar Firdaus
 
 $R  = "\e[91m";
